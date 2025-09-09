@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre FORMS HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Formulários HTML</h1>
+    </div>
+    <div>
+        <form action="#" method="post">   
+            <label for="nome">Nome (obrigatório)</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome completo" maxlength="6" required>  
+            <label for="email">E-mail</label>
+            <input type="email"placeholder="email@email.com">
+            <label for="periodo">Período</label>
+            <input type="number" name="periodo" id="periodo" max="4" min="1" step="2">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" maxlength="10">
+            <label for="nasc">Data de Nascimento</label>
+            <input type="date" name="nasc" id="nasc">
+            <label for="felicidade">Nível de felicidade</label>
+            <input type="range" name="felicidade" id="felicidade">
+            <p>Voce gosta de estudar?</p>
+            <label for="estuda">Sim</label>
+            <input type="radio" name="estuda" id="sim">
+            <label for="naoestuda">Nao</label>
+            <input type="radio" name="estuda" id="nao">
+            <p>Quais matérias voce mais gosta?</p>
+            <label for="alg">Algoritmos</label>
+            <input type="checkbox" name="alg">
+            <label for="des">DesenvolvimentoWeb</label>
+            <input type="checkbox" name="des">
+            <label for="bd">Banco de Dados</label>
+            <input type="checkbox" name="bd">
+
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
+</body>
+</html>
